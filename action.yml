@@ -1,5 +1,8 @@
 name: 'Maven Artifact Version Extractor Action'
-description: 'extracts an artifact version from pom.xml file'
+description: 'This action extracts an artifact version from pom.xml file'
+branding:
+  icon: anchor
+  color: orange
 inputs:
   file_path:
     description: 'The file path of the pom.xml file'
