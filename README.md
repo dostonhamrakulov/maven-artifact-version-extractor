@@ -53,7 +53,7 @@ jobs:
         uses: dostonhamrakulov/maven-artifact-version-extractor@v1.0
         with:
           file_path: ${{ github.workspace }}/pom.xml
-      - name: Get the output time
+      - name: Get the output version
         run: echo "The found version ${{ steps.version-extractor.outputs.version }}"
 
 ```
