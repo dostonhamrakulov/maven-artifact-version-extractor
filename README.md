@@ -48,7 +48,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: Hello world action step
+      - name: Extract version from pom.xml file
         id: version-extractor
         uses: dostonhamrakulov/maven-artifact-version-extractor@v1.0
         with:
